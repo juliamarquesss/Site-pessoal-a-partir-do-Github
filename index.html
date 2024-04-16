@@ -1,11 +1,204 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trabalho Prático</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <h1></h1>
+  <header>
+    <nav>
+      <a href="index.html"><button type="button" class="btn btn-light">
+          <h1>Júlia Marques</h1>
+        </button></a>
+
+
+      <ul class="nav_list">
+        <li>PERFIL</li>
+        <li>REPOSITÓRIOS</li>
+        <li>COLEGAS</li>
+      </ul>
+      <h3>Perfil</h3>
+      <hr>
+    </nav>
+  </header>
+  <section class="perfil">
+    <img class="img_principal" src="imagens/fotojulia.jpeg" alt="" width="225px" height="200px">
+
+    <h3 class="nome_perfil">Júlia Marques</h3>
+
+    <p class="descrição">Estudante do curso de Engenharia de Software pela universidade PUC Minas. Formação técnica em
+      informática, com conhecimento em desenvolvimento web, manutenção e montagem de computadores.</p>
+    <ul class="loc_list">
+      <b>
+        <li>Localização:</li>
+      </b>
+      <li>Belo Horizonte, Minas Gerais</li>
+    </ul>
+    <ul class="site_list">
+      <b>
+        <li>Site:</li>
+      </b>
+      <a href="">
+        <li>https://github.com/juliamarquesss.</li>
+      </a>
+    </ul>
+
+    <ul class="icons">
+      <li> <a href="https://pt-br.facebook.com/"><img src="imagens/square-facebook.svg" alt="" width="40px" height="40px"> </a></li>
+      <li><a href="https://twitter.com/x"><img src="imagens/twitter.svg" alt="" width="40px" height="40px"></a> </li>
+      <li><a href="https://www.instagram.com/juliamarques_m/"> <img src="imagens/instagram.svg" alt="" width="40px" height="40px"></a> </li>
+    </ul>
+    <div class="user">
+      <img src="imagens/user.png" alt="" width="30px">
+      <h6>05</h6>
+    </div>
+  </section>
+  <h3 class="rep">Repositórios (3)</h3>
+  <hr>
+
+  <section class="repositorios">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-body">
+          <a href="rep.html">
+            <h5 class="card-title">layout-grid-responsivo</h5>
+          </a>
+          <p class="card-text">Repositório destinado á uma atividade prática da matéria de desenvolvimento de interfaces web, cujo objetivo era executar uma página que se adapta em diferentes dispositivos.</p> <img cla src="imagens/star.png" alt="" width="20px">
+          <div class="img_rep"><b>0</b></div> <img src="imagens/user.png" alt="" width="20px"> <b>1</b>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-body">
+          <a href="rep.html">
+            <h5 class="card-title">Site-pessoal-a-partir-do-Github</h5>
+          </a>
+          <p class="card-text">Aborda uma proposta de trabalho onde tem como objetivo criar uma página web utiilizando as informações presentes no perfil do Github pessoal, incluindo os repositórios.</p> <img src="imagens/star.png" alt="" width="20px">
+          <div class="img_rep"> <b>0</b></div> <img src="imagens/user.png" alt="" width="20px"> <b>1</b>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-body">
+          <a href="rep.html">
+            <h5 class="card-title">Curriculo</h5>
+          </a>
+          <p class="card-text">Adaptação de um Currículo feito em formato de texto para uma página web, contendo informações pessoais e profissionais, podendo ser utilizado como portfólio.</p> <img src="imagens/star.png" alt="" width="20px">
+          <div class="img_rep"><b>0</b></div> <img src="imagens/user.png" alt="" width="20px"> <b>1</b>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section class="conteudo">
+    <h3 class="conteudo_sugerido">Conteúdo sugerido</h3>
+    <hr>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+          aria-label="Slide 3"></button>
+
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imagens/cursohtml5.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>CURSO HTML</h5>
+            <a href="https://www.youtube.com/watch?v=sj0p9O85AIg&list=PL2Fdisxwzt_cajoGVWTx44wM6Ht09QJ3A">Aprenda
+              agora!</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="imagens/cursocss.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>CURSO CSS</h5>
+            <a href="https://www.youtube.com/watch?v=HtVRRHoASes&list=PL2Fdisxwzt_f5C7Mv0kg1EAHhy2VJLf1c">Aprenda
+              agora!</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="imagens/cursojavascript.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>CURSO JAVASCRIPT</h5>
+            <a href="https://www.youtube.com/watch?v=vEwPnjqWQ-g&list=PL2Fdisxwzt_d590u3uad46W-kHA0PTjjw">Aprenda
+              agora!</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="imagens/cursobootstrap.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>CURSO BOOTSTRAP</h5>
+            <a href="https://www.youtube.com/watch?v=SmQMZ36hJJY&list=PLnDvRpP8Bnexu5wvxogy6N49_S5Xk8Cze">Aprenda
+              agora!</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="imagens/cursologica.webp" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>CURSO DE LÓGICA</h5>
+            <a href="https://www.youtube.com/watch?v=8mei6uVttho&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV">Aprenda
+              agora!</a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <h3>Colegas de trabalho</h3>
+  <hr>
+  <section class="colegas">
+    <div class="container_colegas">
+      <div class="row_colegas">
+        <div class="col">
+          <img src="imagens/Marcela Costa.jpeg" alt="" width="100px"><br><a href="https://github.com/AlianeAmaral">Aliane Amaral</a>
+        </div>
+        <div class="col">
+          <img src="imagens/Paulo Moreira.jpeg" alt="" width="100px"><br><a href="https://github.com/IDouble">Double Alp</a>
+        </div>
+        <div class="col">
+          <img src="imagens/sonia abreu.jpeg" alt="" width="100px"><br><a href="https://github.com/rafaballerini">Rafaella Ballerini</a>
+        </div>
+      </div>
+  </section>
+  <footer>
+    <div class="rodapé">
+      <p>&copy; 2024 Júlia Marques. Todos os direitos reservados.</p>
+    </div>
+  </footer>
 </body>
+
 </html>

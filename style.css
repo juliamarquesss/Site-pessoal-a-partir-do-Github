@@ -1,0 +1,131 @@
+*{
+    margin: 3px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+
+.nav_list{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    margin-top: -40px;
+    font-size: 20px;
+    gap: 20px;
+    font-weight: bold;
+}
+
+
+
+
+.img_principal{
+    float: inline-start;
+    display: flex;
+    padding-right: 20px;
+
+}
+
+.nome_perfil{
+    color: #00c1de;
+    margin-left: 20px;
+
+}
+
+.descrição{
+text-align: justify;
+margin-top: 5px;
+margin-left: -5px;
+display: block;
+}
+
+.perfil_list{
+    list-style-type: none;
+    display: flex;
+}
+
+.loc_list{
+    float: left;
+    list-style: none;
+    padding: 0;
+    margin-left: -5px;
+    margin-top: -10px;
+    display: flex;
+    align-items: baseline;
+    
+
+
+}
+
+
+.site_list{
+    float: left;
+    padding: 0;
+    list-style: none;
+    margin-top: 15px;
+    margin-left:-313px;
+    display: flex;
+}
+
+.icons{
+    gap: 8px;
+    float: left;
+    padding: 0;
+    list-style: none;
+    margin-top: 50px;
+    margin-left:-318px;
+    display: flex;
+}
+
+.user{
+    justify-content: end;
+    display: flex;
+    padding-right:100px;
+    
+}
+
+.rep{
+    display: flex;
+    margin-top: 70px;
+    
+}
+
+.repositorios{
+    margin-top: 30px;
+    display: flex;
+    gap: 50px;
+    margin-left: -10px;
+    
+    
+}
+
+.img_rep{
+    display: -webkit-inline-flex;
+    justify-content: center;
+}
+
+.row_colegas{
+    display: flex;
+    padding-left: 250px;
+    
+
+}
+
+.rodapé{
+        background-color: #000000;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+    
+}
+
+@media screen and (max-width: 800px) {
+
+.nav_list{
+    font-size: 12px;
+}
+.row_colegas{
+    padding: 0;
+}
+
+}

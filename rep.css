@@ -1,0 +1,77 @@
+*{
+    margin: 4px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+.nav_list{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    margin-top: -40px;
+    font-size: 20px;
+    gap: 20px;
+    font-weight: bold;
+}
+.nome{
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+    background-color: lightgray;
+    border-radius: 2px;
+}
+
+.nome:hover{
+    color: black;
+    border-radius: 2px;
+}
+
+h5{
+    color: #00c1de;
+
+
+}
+.descricap{
+    text-align: justify;
+}
+.rodapé{
+    margin-top: 420px;
+    background-color: #000000;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.topicos{
+    list-style-type: none;
+    display: flex;
+    justify-content: start;
+    margin-left: -25px;
+    gap: 20px;
+}
+
+.itens{
+    color: #fff;
+    padding: 5px;
+    background-color: #00c1de;
+    border-radius: 20px;
+}
+
+.follow{
+    justify-content: flex-end;
+    margin-top: -220px;
+    margin-left: 800px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .follow{
+        justify-content: flex-end;
+        margin-top: -220px;
+        margin-left: 300px;
+    }
+    .nav_list{
+        font-size: 12px;
+    }
+}    
