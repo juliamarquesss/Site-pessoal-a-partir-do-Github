@@ -32,8 +32,12 @@ h5{
 
 
 }
-.descricap{
+.descricao{
     text-align: justify;
+}
+
+.proprietario{
+    border-radius: 50%;
 }
 .rodapé{
     margin-top: 420px;
@@ -60,7 +64,7 @@ h5{
 
 .follow{
     justify-content: flex-end;
-    margin-top: -220px;
+    margin-top: -250px;
     margin-left: 800px;
 }
 

@@ -95,13 +95,15 @@ display: block;
     display: flex;
     gap: 50px;
     margin-left: -10px;
+    position: relative;
     
     
 }
 
 .img_rep{
-    display: -webkit-inline-flex;
+    display:-webkit-inline-flex;
     justify-content: center;
+    position: relative;
 }
 
 .row_colegas{
@@ -119,13 +121,28 @@ display: block;
     
 }
 
-@media screen and (max-width: 800px) {
+.col{
+    display: flex;
+}
+
+@media screen and (max-width: 1000px) {
 
 .nav_list{
     font-size: 12px;
 }
 .row_colegas{
     padding: 0;
+}
+.user{
+    position: relative;
+    justify-content: end;
+    display: flex;
+    padding-right:10px;
+}
+
+.img_rep{
+    display: flex;
+    
 }
 
 }
